@@ -9,7 +9,7 @@ O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite
 
 ## Implementação
 Listar os episódios de podcasts em sessões de categorias
-- Endpoint: GET /list
+- Endpoint: GET /api/episodes
 - Descrição: Retorna uma lista de episódios de podcasts organizados por categorias.
 - Exemplo de resposta:
 ```
@@ -34,9 +34,9 @@ Listar os episódios de podcasts em sessões de categorias
 ```
 
 ## Filtrar episódios por nome de podcast
-- Endpoint: GET /episode?podcastName={nome}
+- Endpoint: GET /episode?podcast={nome}
 - Descrição: Retorna uma lista de episódios de podcast com base no nome do podcast fornecido.
-- Exemplo de requisição: GET /episode?podcastName=flow
+- Exemplo de requisição: GET /api/episodes?podcast=flow
 
 - ## Tecnologias Utilizadas
 - TypeScript: Linguagem de programação utilizada para o desenvolvimento do projeto.
