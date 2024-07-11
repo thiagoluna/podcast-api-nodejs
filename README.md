@@ -34,7 +34,7 @@ Listar os episódios de podcasts em sessões de categorias
 ```
 
 ## Filtrar episódios por nome de podcast
-- Endpoint: GET /episode?podcast={nome}
+- Endpoint: GET /api/episodes?podcast={nome}
 - Descrição: Retorna uma lista de episódios de podcast com base no nome do podcast fornecido.
 - Exemplo de requisição: GET /api/episodes?podcast=flow
 
